@@ -30,7 +30,6 @@ end
 writefile("ape/testfile.txt", "This is a test file to see if file creation works.")
 if isfile("ape/testfile.txt") then
     print("Deleting test file")
-    wait(15)
     delfile("ape/testfile.txt")
 end
 
