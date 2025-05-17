@@ -35,7 +35,7 @@ do
     img.Size = UDim2.new(1, 0, 1, 0)
     img.Position = UDim2.new(0, 0, 0, 0)
     img.BackgroundTransparency = 1
-    img.Image = getcustomasset("astlofo/imgs/astlofo.png")
+    img.Image = getcustomasset("astlofo/imgs/trollface.png")
     img.ZIndex = 10
     img.Parent = sg
 
@@ -69,7 +69,7 @@ local originalProps = {}
 local appliedTextures = {}
 local running = true
 
-local rickTexturePath = getcustomasset("astlofo/imgs/trollface.png")
+local rickTexturePath = getcustomasset("astlofo/imgs/astlofo.png")
 
 local function applyRickTexture(part)
     if not originalProps[part] then
