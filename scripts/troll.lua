@@ -52,10 +52,10 @@ do
     txt.ZIndex = 11
     txt.Parent = sg
 
-    -- Play sound once
+    -- Play sound once (🔉 50% volume)
     local sound = Instance.new("Sound")
     sound.SoundId = getcustomasset("troll/sounds/troll.mp3")
-    sound.Volume = 1
+    sound.Volume = 0.5
     sound.PlayOnRemove = true
     sound.Parent = workspace
     sound:Destroy()
